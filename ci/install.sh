@@ -2,6 +2,8 @@ NODEJS_VERSIONS="7 6 5 4 0.12 0.10";
 OS=$1;
 CANVAS_VERSION_TO_BUILD=$2;
 
+CANVAS_VERSION_TO_BUILD=1.6.0
+
 if [ "$CANVAS_VERSION_TO_BUILD" = "" ]; then
   echo "No need to build since a tag wasn't pushed, bye bye now";
   exit 0;
